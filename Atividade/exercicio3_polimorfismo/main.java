@@ -1,6 +1,6 @@
 package Atividade.exercicio3_polimorfismo;
 
-public class main {
+public class Main {
     public static void main(String[] args) {
         Calculadora calcular = new Calculadora();
 

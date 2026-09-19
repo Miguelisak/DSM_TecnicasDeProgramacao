@@ -1,6 +1,6 @@
 package Atividade.exercicio1_encapsulamento;
 
-public class main {
+public class Main {
     public static void main(String[] args) {
         Cofrinho viagem = new Cofrinho(500.00, "Viagem para Europa");
 

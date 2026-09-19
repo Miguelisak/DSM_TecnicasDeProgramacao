@@ -1,9 +1,9 @@
 package Atividade.exercicio4_Pagamento;
 
-public class pagamento {
+public class Pagamento {
     private double valor;
 
-    public pagamento (double valor)
+    public Pagamento (double valor)
     {
         if(valor >= 0)
         {
@@ -16,18 +16,18 @@ public class pagamento {
         return this.valor;
     }
 
-    public double Calculartaxa()
+    public double calcularTaxa()
     {
         return 0.0;
     }
 
-    public double CalcularTotal()
+    public double calcularTotal()
     {
-        return this.valor + Calculartaxa();
+        return this.valor + calcularTaxa();
     }
 
     public void processar()
     {
-        System.out.println("Total do pagamento: R$ " + String.format("%.2f", CalcularTotal()));
+        System.out.println("Total do pagamento: R$ " + String.format("%.2f", calcularTotal()));
     }
 }

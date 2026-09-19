@@ -1,6 +1,6 @@
 package Atividade.exercicio2_heranca;
 
-public class main {
+public class Main {
     public static void main(String[] args) {
         VideoAula matematica = new VideoAula("Matematica Basica", 50, "Youtube");
 
