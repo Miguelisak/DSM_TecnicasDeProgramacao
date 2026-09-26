@@ -1,4 +1,4 @@
-package exercicios;
+package Exercicios;
 public class ContaBancariaEx26 {
     static class ContaBancaria {
         //Atributos
@@ -48,6 +48,8 @@ public class ContaBancariaEx26 {
         // Operações exclusivamente na conta 1
         Conta1.depositar(200.0);
         Conta1.sacar(100.0);
+
+        System.out.println();
 
         // Operações exclusivamente na conta 2
         Conta2.depositar(150.0);

@@ -1,4 +1,4 @@
-package exercicios;
+package Exercicios;
 public class Ex017 {
     public static void main(String[] args) {
         Aluno a1 = new Aluno();

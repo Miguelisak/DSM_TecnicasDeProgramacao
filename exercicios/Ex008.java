@@ -1,4 +1,4 @@
-package exercicios;
+package Exercicios;
 public class Ex008 {
     public static void main(String[] args) {
         System.out.println("---Conversao de tempo---");
